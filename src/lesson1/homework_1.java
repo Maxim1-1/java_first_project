@@ -34,10 +34,11 @@ public class homework_1 {
 
           String [] array = {"a","b","c","d","e"};
 
-          System.out.println(String.join("",array));
-          String rep = String.join("",array).replace("d","h");
-          System.out.print(rep);
+          System.out.println(Arrays.toString(array));
 
+          array[3] = array[3].replace('d','h');
+
+          System.out.println(Arrays.toString(array));
 
     }
 }
