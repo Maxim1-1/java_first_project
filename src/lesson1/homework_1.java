@@ -1,5 +1,6 @@
 package lesson1;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 /////////////////task_1////////////////////////
@@ -30,15 +31,12 @@ import java.util.Locale;
 
 public class homework_1 {
     public static void main(String[] args) {
-        String [] array = new String[6];
-        array[0] = "a";
-        array[1] = "b";
-        array[2] = "c";
-        array[3] = "d";
-        array[4] = "e";
-        array[5]= "h";
-        System.out.print(array[0]+array[1]+array[2]+array[3]+array[4]+ "\n" +array[0]+array[1]+array[2]+array[5]+array[4]);
 
+          String [] array = {"a","b","c","d","e"};
+
+          System.out.println(String.join("",array));
+          String rep = String.join("",array).replace("d","h");
+          System.out.print(rep);
 
 
     }
