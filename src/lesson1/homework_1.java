@@ -22,7 +22,7 @@ import java.util.Locale;
 //     float weight = (float) 75.6;
 //     float height = (float) 1.75;
 //
-//     float mass_body = (weight/height);
+//     float mass_body = (weight/height*height);
 //     System.out.print(mass_body);
 //    }
 //}
