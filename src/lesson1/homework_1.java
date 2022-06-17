@@ -32,11 +32,12 @@ import java.util.Locale;
 public class homework_1 {
     public static void main(String[] args) {
 
-          String [] array = {"a","b","c","d","e"};
+          char [] array = {'a','b','c','d','e'};
+          char rep = 'h';
 
           System.out.println(Arrays.toString(array));
 
-          array[3] = array[3].replace('d','h');
+          array[3] = rep;
 
           System.out.println(Arrays.toString(array));
 
