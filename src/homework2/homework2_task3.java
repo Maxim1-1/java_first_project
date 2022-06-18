@@ -15,11 +15,11 @@ public class homework2_task3 {
         // Если ингредиентов нет, то повар объявляет: У меня ничего нет
         // Написать набор условий, приготовления салатов, по приоритету (от Цезаря к овощному)
 
-        if((chicken == true) & (vegetables == true) & (sour == true)& (toast == true)){
+        if((chicken) & (vegetables) & (sour)& (toast)){
             System.out.print("Цезарь готов");
-        }else if (((vegetables == true) & (sausage == true)) | ((chicken == true) & (eggs == true))) {
+        }else if (((vegetables ) & (sausage)) | ((chicken) & (eggs))) {
             System.out.print("Оливье готово");
-        }else if (vegetables == true){
+        }else if (vegetables){
             System.out.print("Овощной салат  готов");
         }
         else {
