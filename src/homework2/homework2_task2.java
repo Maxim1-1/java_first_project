@@ -8,10 +8,10 @@ public class homework2_task2 {
         if ((ageChildren < 6) & (ageChildren>0)) {
             System.out.print("пошел в сад");
         }
-        if ((ageChildren < 11) & (ageChildren>=6)) {
+        else if ((ageChildren < 11) & (ageChildren>=6)) {
             System.out.print("пошел в младшую школу");
         }
-        if ((ageChildren < 17) & (ageChildren>=11)) {
+        else if ((ageChildren < 17) & (ageChildren>=11)) {
             System.out.print("пошел в среднюю школу");
         } else if ((ageChildren >= 17) & (ageChildren>=0)){
             System.out.print("пошел в университет");
