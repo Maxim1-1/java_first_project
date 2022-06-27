@@ -2,10 +2,10 @@ package homework3_task_2;
 
 import java.io.*;
 
-public class hw3_task2 {
+public class hw3Task2 {
     public static void main(String[] args) throws IOException {
 
-        String path = hw3_task2.class.getClassLoader().getResource("").getPath();
+        String path = "D:\\java_folder\\first_project\\src\\homework3_task2\\resource\\my_first_file.txt";
         String result = "";
         FileReader file = new FileReader(path);
         BufferedReader bufferedReader = new BufferedReader(file);
